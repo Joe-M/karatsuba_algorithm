@@ -1,0 +1,1 @@
+Uses a long multiplication and karatsuba algorthim on two binary numbers. 
