@@ -1,14 +1,10 @@
 /*************************
 
-Joe Maag
-
-
-Assignment 4: Integer Multiplication using the standard multiplication algorithm and 
-Karatsuba's algorithm for fast multiplication of large integers
+Integer Multiplication using the standard multiplication algorithm and Karatsuba's algorithm for fast multiplication of large integers
 
 Summary:
 ---------------------------
-Binary numbers are read in via a text file. Due to assignment specifications, they are held in char arrays.
+Binary numbers are read in via a text file. Each number is held in a char array which is completely unnecessary but was necessary at the time.
 Because of this, there are a lot of array to arraylist and arraylist to array translations for better array manipulation.
 Hence the 2 methods, "arrayToList" and "listToArray" that are used more frequently then I'd like.
 
@@ -18,9 +14,6 @@ Then "n" pairs of binary numbers will be listed, each beginning with an integer 
 
 Printed to the console will be the result of a long muliplication algorithm, and then Karatsubas algrothim (both results should be the same for every pair of binary numbers)
 ----------------------------
-
-
-3/13/14
 
 ***************************/
 
